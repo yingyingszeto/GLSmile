@@ -1,0 +1,93 @@
+/* background image */
+#content1_Home {  
+	background-image: url(../../img/index/home_background.jpg);
+	color: #000000;
+	position: absolute;
+    background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+    max-width: 100%;
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+	top: 0;
+	margin: auto;
+	overflow: auto;
+	text-align: center;
+}
+
+/* for home slogan */
+#homeSlogan {
+	color: #333333;
+	letter-spacing: 1px;
+	font-size: 9vh;
+	font-weight: bolder;
+	line-height: normal;
+	text-align: center;
+	margin-top: calc( 27vh - 25px );
+	display:block;
+  	margin-left:auto;
+  	margin-right:auto;
+ 	width: 960px;
+	text-transform: uppercase;
+}
+/* for scroll down */
+.scrollDown {
+	bottom: 40px;
+	position: absolute;
+	left: 45%;
+	right: 45%;
+	color: #000000;
+	font-weight: bold;
+}
+
+/* fix contents after the first part */
+.content_whole {
+	position: absolute;
+	top: 100%;
+	width: 100%;
+	height: auto;
+	left: 0;
+}
+
+/*** content 2 ***/
+
+#content2_Home {
+	text-align: center;
+}
+
+#content2_Home .col-lg-4 {
+	padding: 100px 30px;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+#content2_Home p {
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+}
+
+#content2_Home img, #content2_Home h2 {
+	margin-bottom: 35px;
+}
+
+#content2_Home h2 {
+	text-transform: uppercase;
+	font-size: 30px;
+    font-weight: 400;
+}
+
+#content2_Home img {
+	height: 100px;
+}
+
+
+
+
+
+
+	
+

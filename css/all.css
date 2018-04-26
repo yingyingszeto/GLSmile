@@ -1,0 +1,56 @@
+html, body {
+	max-width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+a, a:hover, a:active, a:focus {
+	text-decoration: none;
+	outline: 0;
+}
+
+input:focus {
+	outline: none;
+}
+
+p {
+	margin-bottom: 0;
+}
+
+/* for top image of contact and project */
+.backgroundImage {
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;	
+}
+
+/* for all slogan */
+.slogan1 {
+	font-size: 60px;
+}
+
+/* for all button */
+.button {
+	padding: 15px 20px;
+	font-weight: 400;
+	font-size: 18px;
+	transition: all 0.2s linear 0s;
+}
+
+.fa-angle-double-right {
+	font-size: 40px;
+    margin: 10px;
+}
+
+.fa-angle-down {
+	font-size: 50px;
+	color: #000000;
+}
+
+
+
+

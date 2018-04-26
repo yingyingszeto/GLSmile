@@ -1,0 +1,182 @@
+.logo {
+    left: 25px;
+    position: absolute;
+    top: 20px;
+    width: 200px;
+}
+/* nav icon */
+.toggleNav {
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	float: right;
+}
+
+#navButton span {
+    background-color: #fe470f;
+	cursor: pointer;
+}
+
+.navbutton {
+	transition-duration: 0.5s;
+	width: 40px;
+	height: 3px;
+	background-color: #fe470f;
+	top: 25px;
+	z-index: 1000;
+	position: fixed;
+}
+/* the x icon */
+.navbutton:before, .navbutton:after {
+	border-radius: 2px;
+	transition-duration: 0.6s;
+	content: "";
+	position: absolute;
+	top: 10px;
+	left: 0;
+	background-color: #fe470f;
+	width: 40px;
+	height: 3px;
+}
+
+.navbutton:after {
+  	top: 20px;
+}
+
+.navbutton.active {
+ 	 width: 0;
+}
+
+.navbutton.active:after{
+	top: 10px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+ }
+    
+.navbutton.active:before{
+	transform: rotate(-45deg);
+	-webkit-transform: rotate(-45deg);
+}
+
+/* Side menu */
+#header_wrapper {
+	padding-right: 20px;
+}
+
+#header_wrapper.active {
+	padding-right: 130px;
+}
+
+#subnav {
+    position: fixed;
+    right: 230px;
+    width: 0;
+    margin-right: -250px;
+    overflow-y: auto;
+    background: #222222;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+	z-index: 900;
+	margin-top: -30px;
+}
+
+#subnav.active {
+  width: 250px;
+}
+
+/* for the height of side menu */
+#subnav, #subnav.active {
+	height: 104%;
+}
+/* for center nav */
+.nav_wrapper {
+	display: table;
+	position: relative;
+	height: 100%;
+	width: 230px;
+}
+	
+.nav_content {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+/* style side menu contents */
+#subnav p {
+  color: #ffffff;
+}
+
+.nav_content p {
+	padding: 20px;
+	font-size: 18px;
+	font-weight: 200;
+	letter-spacing: 2px;
+}
+
+.onClick {
+	color: #fe470f !important;
+}
+
+.offClick:hover {
+	background: #fe470f;
+}
+
+.nav_content a {
+  color: #ffffff !important;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+	/* for the height of side menu */
+	#subnav, #subnav.active {
+		height: 107%;
+	}
+}
+
+
+@media only screen and (max-width: 414px) {
+	.logo {
+		width: 130px;
+		left: 13px;
+		top: 12px;
+	}
+	
+	.navbutton {
+		top: 16px;
+	}
+	/* for the size of nav icon */
+	.navbutton, .navbutton:before, .navbutton:after {
+		width: 30px;
+	}
+	
+	.toggleNav {
+		width: 30px;
+		height: 30px;
+	}
+	/* for adjusting the size of nav icon */
+	.navbutton::before, .navbutton::after {
+		top: 8px;
+		height: 2px;
+	}
+	
+	.navbutton::after {
+		top: 16px;
+	}
+	
+	.navbutton {
+		height: 2px;
+	}
+
+}
+
+@media only screen and (max-width: 320px) {
+	.logo {
+		width: 130px;
+	}
+	/* for the size of nav icon */
+	.navbutton, .navbutton:before, .navbutton:after {
+		width: 30px;
+	}
+}

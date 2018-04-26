@@ -1,0 +1,53 @@
+#footer {
+	background: #222222;
+	text-align: center;
+	padding: 75px 0 50px;
+}
+
+#footer img {
+	width: 150px;
+}
+
+#footerSlogan {
+	color: #57585e;
+	font-size: 23px;
+	padding-top: 40px;
+}
+
+#copyright {
+	color: #acacac;
+	font-size: 14px;
+	font-weight: 200;
+	padding-top: 80px;
+}
+
+@media only screen and (max-width: 768px) {
+	#footerSlogan {
+		font-size: 16px;
+		padding-top: 30px;
+	}
+	
+	#copyright {
+		padding-top: 35px;
+		font-size: 12px;
+	}
+	
+	#footer {
+		padding-top: 60px;
+	}
+	
+	#footer img {
+		width: 120px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	#footer {
+		padding-top: 40px;
+	}
+	
+	#footer img {
+		width: 110px;
+	}
+}
+

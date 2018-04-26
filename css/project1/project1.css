@@ -1,0 +1,75 @@
+/*** content 1 ***/
+
+#content1_Project1 {
+	background-image: url(../../img/project1/project1_background.jpg);
+	color: #ffffff;
+	max-width: 100%;
+}
+
+/* slogan */
+#project1Slogan {
+	padding: 15% 0 20% 0;
+	text-align: center;
+}
+
+
+#content2_Project1 .row {
+	border-bottom: 3px solid #f7f7f7;
+}
+
+/* for center the projects */
+.wrapper, .wrapper2 {
+	height: 500px;
+	position: relative;
+	display: table;
+ }
+ 
+ .content_Project1 {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* image of projects */
+.image_Project1 {
+	text-align: center;
+}
+
+/* content of projects */
+.title_project1 {
+	font-size: 25px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    width: -webkit-fit-content;
+}
+
+.caption_project1 {
+	font-size: 17px;
+    line-height: 35px;
+}
+
+/* view more button */
+.viewProject_Btn {
+	line-height: 115px;
+	background: #ffffff;
+	color: #fe470f;
+	cursor: pointer;
+	margin-top: 40px;
+	border: 2px solid #fe470f;
+}
+
+a.viewProject_Btn {
+	color: #fe470f;
+}
+
+.viewProject_Btn:hover {
+	color: #ffffff;
+	background: #fe470f;
+	text-decoration: none;
+}
+
+
+
+
+
+

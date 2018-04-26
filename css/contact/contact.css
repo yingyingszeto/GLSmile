@@ -1,0 +1,78 @@
+/* for top image */
+#content1_Contact {
+	background-image: url(../../img/contact/contact_background.jpg);
+	color: #fe470f;
+}
+
+#contactSlogan {
+	color: #ffffff;
+	text-align: center;
+	padding: 20% 0;
+}
+
+/*** content 2 ***/
+#content2_Contact {
+	padding: 80px;
+	text-align: center;
+}
+
+textarea {
+	border-bottom: 2px solid #e1e1e1;
+}
+
+.row1, .row2 {
+	margin-bottom: 40px;
+}
+
+.row3 {
+	margin-top: 20px;
+}
+
+.row1, .row2, .row3 {
+	padding: 10px;
+}
+
+#lastName, #tel {
+	float: right;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid #e1e1e1;
+}
+
+textarea {
+	border: 2px solid #e1e1e1;
+	
+}
+/* submit button */
+.submit_Btn {
+	background: #ffffff;
+	color: #fe470f;
+	cursor: pointer;
+	margin-top: 50px;
+	border: 2px solid #fe470f;
+	letter-spacing: 1px;
+	border-radius: 0;
+}
+
+a.submit_Btn {
+	color: #fe470f;
+}
+
+.submit_Btn:hover {
+	color: #ffffff;
+	background: #fe470f;
+}
+
+input[type="text"],
+textarea[type="text"]
+{
+    font-size:15px;
+}
+
+
+
+
+
+

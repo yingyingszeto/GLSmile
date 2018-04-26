@@ -1,0 +1,26 @@
+@media only screen and (max-width: 1200px) {
+	#content2_Contact {
+		padding: 80px 0;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	#contactSlogan {
+		padding: 25% 0;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	#content2_Contact .container {
+		padding: 0 30px;
+	}
+}
+
+@media only screen and (max-width: 414px) {
+	#contactSlogan {
+		padding: 45% 0;
+	}
+}
+
+
+

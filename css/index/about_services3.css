@@ -1,0 +1,50 @@
+/* see our work button */
+.seeOurWork_Btn {
+	position: absolute;
+	right: 50px;
+	bottom: 40px;
+	border: 2px solid #fe470f;
+}
+
+a.seeOurWork_Btn {
+	color: #fe470f;
+}
+
+.seeOurWork_Btn:hover {
+	color: #ffffff;
+	background: #fe470f;
+	text-decoration: none;
+}
+
+/*** content 5 ***/
+	
+.getInTouch_Btn {
+	border: 2px solid #2a2b30;
+	letter-spacing: 0px;
+	font-weight: 700;
+	padding: 15px 20px;
+}
+
+a.getInTouch_Btn {
+	color: #2a2b30;
+	
+}
+
+.getInTouch_Btn:hover {
+	color: #ffffff;
+	background: #2a2b30;
+	text-decoration: none;
+}
+
+#content5_Home {
+	background: #f7f7f7;
+	text-align: center;
+	padding: 150px 0;
+}
+
+#content5_Home p {
+	font-size: 37px;
+    font-weight: 200;
+    letter-spacing: 2px;
+	margin-bottom: 80px;
+}

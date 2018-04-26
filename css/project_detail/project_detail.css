@@ -1,0 +1,71 @@
+/* for center the contents */
+#content_Project2 {
+	text-align: center;
+}
+
+#content_Project2 .container {
+	padding: 90px 90px 150px 90px;
+}
+
+#content_Project2 h1 {
+	font-size: 25px;
+	width: -webkit-fit-content;
+	width: -moz-fit-content;
+	margin: 70px auto 40px;
+	padding: 8px 15px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+	
+
+.caption_project2 {
+	font-size: 17px;
+    font-weight: 200;
+    padding-top: 30px;
+    padding-bottom: 120px;
+    text-align: center;
+}
+/* for our services list and view website link */
+.services_project2 {
+	padding-bottom: 20px;
+}
+
+.viewmore_project2, .viewmore_project2:hover {
+	color: #fe470f;
+	text-decoration: underline;
+}
+
+.services_project2, .viewmore_project2 {
+	font-size: 16px;
+    font-weight: 600;
+	letter-spacing: 0;
+}
+/* for images of projects */
+#content_Project2 img {
+	margin-top: 150px;
+}
+
+.desktop, .laptop {
+	width: 90%;
+}
+
+.mobile {
+	width: 70%;
+}
+
+/* for back to projects */
+.backToProjects {
+	text-align: center;
+}
+
+.text_backToTop {
+	margin-top: 150px;
+}
+
+.backArrow {
+	margin-top: 30px !important;
+	width: 40px;
+	height: 35px;
+}
+
