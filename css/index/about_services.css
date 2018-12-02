@@ -70,18 +70,14 @@
     text-align: center;
 }
 
-#content2_Home img, #content2_Home h2 {
-	margin-bottom: 35px;
-}
-
 #content2_Home h2 {
 	text-transform: uppercase;
 	font-size: 30px;
-    font-weight: 400;
+    font-weight: 700;
 }
 
 #content2_Home img {
-	height: 100px;
+	height: 65px;
 }
 
 
